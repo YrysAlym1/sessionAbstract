@@ -59,7 +59,7 @@ public class Peaksoft {
                 1.get All Mentors
                 2.get All Students
                 3.search by Student name
-                4.search by Mentor name
+                4.search by Mentor email
                 5.sort by student name
                 6.student female or male gender
                 """);
@@ -93,7 +93,7 @@ public class Peaksoft {
 
     public void  getAllStudents() {
 
-        System.out.println(Arrays.toString(mentors));
+        System.out.println(Arrays.toString(students));
         Menu();
     }
 
